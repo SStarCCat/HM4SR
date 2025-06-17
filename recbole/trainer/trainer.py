@@ -320,7 +320,7 @@ class Trainer(AbstractTrainer):
         """
         resume_file = str(resume_file)
         self.saved_model_file = resume_file
-        checkpoint = torch.load(resume_file, map_location=self.device)
+        checkpoint = torch.load(resume_file, map_location=self.device, weights_only=False)
         self.start_epoch = checkpoint["epoch"] + 1
         self.cur_step = checkpoint["cur_step"]
         self.best_valid_score = checkpoint["best_valid_score"]
