@@ -15,14 +15,12 @@ We provide the processed Games dataset [link](https://wwxb.lanzoul.com/iAvjo2lu7
 ## Reference
 
 ```
-@misc{zhang2025hierarchicaltimeawaremixtureexperts,
-      title={Hierarchical Time-Aware Mixture of Experts for Multi-Modal Sequential Recommendation}, 
-      author={Shengzhe Zhang and Liyi Chen and Dazhong Shen and Chao Wang and Hui Xiong},
-      year={2025},
-      eprint={2501.14269},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2501.14269}, 
+@inproceedings{zhang2025hierarchical,
+  title={Hierarchical Time-Aware Mixture of Experts for Multi-Modal Sequential Recommendation},
+  author={Zhang, Shengzhe and Chen, Liyi and Shen, Dazhong and Wang, Chao and Xiong, Hui},
+  booktitle={Proceedings of the ACM on Web Conference 2025},
+  pages={3672--3682},
+  year={2025}
 }
 ```
 
